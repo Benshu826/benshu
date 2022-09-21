@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		使用新域名后不加载主题 | 
+		提交pdf | 
 	 
 	本属的小站
 	</title>
@@ -130,7 +130,7 @@ var _hmt = _hmt || [];
 									</a>
 									
 							<ul>
-								<li class="file active">
+								<li class="file">
 									<a href="/2022/09/21/%E5%81%9A%E4%B8%80%E4%B8%AA%E8%BF%99%E6%A0%B7%E7%9A%84%E7%BD%91%E9%A1%B5/%E4%BD%BF%E7%94%A8%E6%96%B0%E5%9F%9F%E5%90%8D%E5%90%8E%E4%B8%8D%E5%8A%A0%E8%BD%BD%E4%B8%BB%E9%A2%98/">
                      
 										    使用新域名后不加载主题
@@ -152,7 +152,7 @@ var _hmt = _hmt || [];
 							</ul>
 			
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2022/09/21/%E5%81%9A%E4%B8%80%E4%B8%AA%E8%BF%99%E6%A0%B7%E7%9A%84%E7%BD%91%E9%A1%B5/%E6%8F%90%E4%BA%A4pdf/">
                      
 										    提交pdf
@@ -272,12 +272,12 @@ var _hmt = _hmt || [];
 	<!-- 引入正文 -->
 	<div id="content">
 		<h1 id="article-title">
-	使用新域名后不加载主题
+	提交pdf
 </h1>
 <div class="article-meta">
 	
 	<span>本属</span>
-	<span>2022-09-21 18:58:13</span>
+	<span>2022-09-21 16:27:15</span>
 		<div id="article-categories">
     
 		<span>Categories：</span>
@@ -290,7 +290,7 @@ var _hmt = _hmt || [];
                 
                     <span>
                         <i class="fa fa-tag" aria-hidden="true">
-                        <a href="/tags/搭建问题/">搭建问题</a>
+                        <a href="/tags/学习/">学习</a>
                         </i>
                     </span>
                 
@@ -301,15 +301,16 @@ var _hmt = _hmt || [];
 </div>
 
 <div id="article-content">
-	<p>心路历程：看了一圈CSDN，基本上面都是抄抄改改，只有几个还挺负责，但仍然没解决我的问题，差点就放弃了，不过好在试错给试出来了。</p>
-<hr>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>使用了新域名后，发现网页的CSS和JS都没用了，但本地静态可以正常运行。这个时候需要修改个人博客底下的_config.yml文件，先找到这个地方：</p>
+	<p>首先安装<a target="_blank" rel="noopener" href="https://github.com/superalsrk/hexo-pdf">hexo-pdf</a>，<code>$ npm install --save hexo-pdf</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf 你的链接 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>示例：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf https://cloud.tsinghua.edu.cn/f/952edbd1e02d409cbd01/ %&#125;</span><br></pre></td></tr></table></figure>
+
 <div align="center">
-    <img src='https://s2.loli.net/2022/09/21/PpmMNgwGFE5Vudf.png', width = 500px/>
+    <img src="https://s2.loli.net/2022/09/21/nITji7aNwrul5OP.png", width = 500px/>
 </div>
 
-<p>将url改为githubname.github.io，不要出现下一层仓库名。</p>
-<p><strong>说明：</strong>CSDN上别人的问题不适用原因，我们这个没有单独给出root，切记切记。</p>
 
 </div>
 
@@ -317,11 +318,16 @@ var _hmt = _hmt || [];
     <div class="post-guide">
         <div class="item left">
             
+              <a href="/2022/09/21/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  个人简历
+              </a>
+            
         </div>
         <div class="item right">
             
-              <a href="/2022/09/21/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
-                个人简历
+              <a href="/2022/09/21/%E5%81%9A%E4%B8%80%E4%B8%AA%E8%BF%99%E6%A0%B7%E7%9A%84%E7%BD%91%E9%A1%B5/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%83%8F%E8%BF%99%E6%A0%B7%E7%9A%84%E7%BD%91%E9%A1%B5/">
+                如何搭建像这样的网页
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </a>
             
